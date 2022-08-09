@@ -11,7 +11,7 @@ PROVIDES += "u-boot"
 SRCREV = "436b4ae23aba34d44ac6a6f23d9f2770c6409536"
 
 SRC_URI = " \
-    git://github.com/SamsungARTIK/u-boot-artik.git;protocol=https;branch=artik-exynos/v2012.07 \
+    git://github.com/C2BB/u-boot-artik.git;protocol=https;branch=artik-exynos/v2012.07 \
     file://0003-fix-single-sdfuse-flash-command.patch \
     "
 
