@@ -3,7 +3,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 LINUX_VERSION = "3.10.104"
 
 SRC_URI = " \
-    git://github.com/SamsungARTIK/linux-artik.git;protocol=https;branch=artik-exynos/v3.10.x \
+    git://github.com/C2BB/linux-artik.git;protocol=https;branch=artik-exynos/v3.10.x \
     file://0001-Btrfs-fix-not-being-able-to-find-skinny-extents-duri.patch \
     file://0002-mali-Fix-out-of-tree-compile-errors.patch \
     "
